@@ -1,8 +1,8 @@
 import "../../Styles/Slider.css"
 import { BsX, BsPerson } from "react-icons/bs"
 import { useSelector, useDispatch } from "react-redux"
-import { sliderToggle } from "../../Features/Slider"
-import { toggle } from "../../Features/Logger"
+import { sliderToggle } from "../../Features/Slider.js"
+import { toggle } from "../../Features/Logger.js"
 import { useNavigate } from "react-router-dom"
 
 function Slider() {
