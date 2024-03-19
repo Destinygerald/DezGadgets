@@ -5,11 +5,11 @@ import { AiFillPhone, AiFillMail, AiOutlineMenu } from "react-icons/ai"
 import { BsBag, BsPerson, BsCaretDown, BsSearch, BsX } from "react-icons/bs"
 import { useDispatch, useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"
-import { toggle } from "../Features/Logger"
-import { sliderToggle } from "../Features/Slider"
+import { toggle } from "../Features/Logger.js"
+import { sliderToggle } from "../Features/Slider.js"
 import MobileSearch from "./MobileSearch"
 import Cart from "./Cart/Cart.jsx"
-import { toggleCart } from "../Features/CartSlider"
+import { toggleCart } from "../Features/CartSlider.js"
 
 function SearchBar() {
 
