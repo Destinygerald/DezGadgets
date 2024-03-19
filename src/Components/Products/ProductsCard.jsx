@@ -2,9 +2,9 @@ import "../../Styles/Products.css"
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai"
 import { useState, useEffect } from "react"
 import { useLocation } from "react-router-dom"
-import { addToCart, minusFromCart } from "../../Features/Cart"
+import { addToCart, minusFromCart } from "../../Features/Cart.js"
 import { useDispatch, useSelector } from "react-redux"
-import { toggleToFav } from "../../Features/Favorites"
+import { toggleToFav } from "../../Features/Favorites.js"
 
 function ProductsCard ({ productImg, productName, productPrice }) {
 
