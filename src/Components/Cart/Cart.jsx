@@ -2,8 +2,8 @@ import "../../Styles/Cart.css"
 import { BiTrash } from "react-icons/bi"
 import { useSelector, useDispatch } from "react-redux"
 import { useRef, useEffect, useState } from "react"
-import { toggleCart } from "../../Features/CartSlider"
-import { removeFromCart } from "../../Features/Cart"
+import { toggleCart } from "../../Features/CartSlider.js"
+import { removeFromCart } from "../../Features/Cart.js"
 
 function CartItems ({ imgSrc, itemName, itemAmount, itemPrice }){
 
