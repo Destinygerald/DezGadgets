@@ -4,7 +4,7 @@ import Login from "./Login"
 import Signin from "./Signin"
 import { useSelector, useDispatch } from "react-redux"
 import { useRef, useEffect } from "react"
-import { toggle } from "../../Features/Logger"
+import { toggle } from "../../Features/Logger.js"
 import { BsX } from "react-icons/bs"
 
 
