@@ -1,7 +1,7 @@
 import "../../Styles/Logger.css"
 import { useState } from "react"
 import { useDispatch } from "react-redux"
-import { toggle } from "../../Features/Logger"
+import { toggle } from "../../Features/Logger.js"
 
 function Signin () {
 
