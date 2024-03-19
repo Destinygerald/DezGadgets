@@ -6,11 +6,11 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import { Provider } from "react-redux"
 import { configureStore } from "@reduxjs/toolkit"
 import './index.css'
-import loggerReducer from "./Features/Logger"
-import sliderReducer from "./Features/Slider"
-import cartReducer from "./Features/CartSlider"
-import cartItems from "./Features/Cart"
-import favoriteReducer from "./Features/Favorites"
+import loggerReducer from "./Features/Logger.js"
+import sliderReducer from "./Features/Slider.js"
+import cartReducer from "./Features/CartSlider.js"
+import cartItems from "./Features/Cart.js"
+import favoriteReducer from "./Features/Favorites.js"
 
 const client = new QueryClient()
 const store = configureStore({
