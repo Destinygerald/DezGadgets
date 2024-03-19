@@ -4,8 +4,8 @@ import ProductPagination from "./ProductPagination"
 import { AiOutlineCaretDown, AiOutlineCaretUp } from "react-icons/ai"
 import { useState } from "react"
 import { useQuery } from "@tanstack/react-query"
-import { wait } from "../../api/Api"
-import { PRODUCTS } from "../../api/Placeholders"
+import { wait } from "../../api/Api.js"
+import { PRODUCTS } from "../../api/Placeholders.js"
 
 function ProductSort ({ opened }) {
 
