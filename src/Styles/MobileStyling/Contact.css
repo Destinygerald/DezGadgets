@@ -1,0 +1,23 @@
+@media only screen and ( max-width: 600px ) {
+	.contact-container {
+		flex-direction: column;
+		gap: 16px;
+		justify-content: normal;
+		align-items: flex-start;
+	}
+
+	.contact-container-right {
+		width: 100%;
+		padding: 0;
+		gap: 10px;
+	}
+
+	.contact-container-right > button {
+		width: 160px;
+		padding: 10px 0;
+	}
+
+	.contact-container-right > textarea {
+		min-height: 160px;
+	}
+}

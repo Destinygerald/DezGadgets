@@ -1,0 +1,66 @@
+@media only screen and ( max-width: 600px ) {
+	.footer {
+		/*display: none;*/
+		padding: 40px 6%;
+	}
+
+	.footer > div:first-child {
+		position: relative;
+	}
+
+	.footer > div:first-child > span:first-child {
+		width: 120px;
+	}
+
+	.subscription {
+		position: absolute;
+		top: 68px;
+	}
+
+	.subscription > input {
+		width: 100%;
+	}
+
+	.footer-content {
+		margin-top: 32px;
+	}
+
+	.footer-list > span:first-child {
+		font-size: .75rem;
+		width: 60px;
+	}
+
+	.footer-list > div:last-child {
+		font-size: .45rem;
+	}
+
+	.footer-contact > span:first-child {
+		font-size: .9rem;
+		width: 52px;
+		word-break: break-all;
+	}
+
+	.footer-item {
+		font-size: .55rem;
+		width: 68px;
+	}
+
+	.footer-copyright {
+		/*display: none;*/
+	}
+
+	.footer-copyright > span:first-child {
+		font-size: .4rem;
+		width: 80px;
+	}
+
+	.footer-copyright > span:nth-child(2) {
+		font-size: .55rem;
+	}
+
+	.payment-card {
+		width: 24px;
+		height: 16px;
+	}		
+
+}

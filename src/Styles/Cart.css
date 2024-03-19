@@ -1,0 +1,135 @@
+.cart {
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 32%;
+	height: 100vh;
+	background-color: white;
+	z-index: 2;
+	box-shadow: 0 0 3px rgb(0, 0, 0, .2);
+	padding: 10px 28px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	color: rgb(80, 80, 80);
+}
+
+.hide-cart {
+	display: none;
+	visibility: hidden;
+}
+
+.cart > span:first-child {
+	/*background-color: none;*/
+	color: rgb(80, 80, 80);
+	font-weight: 600;
+}
+
+.cart > div:nth-child(2) {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 12px;
+}
+
+.cart-item {
+	width: 100%;
+	height: 72px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cart-card {
+	width: 80%;
+	height: 100%;
+	background-color: white;
+	box-shadow: 0 0 2px rgb(0, 0, 0, .2);
+	border-radius: 3px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	position: relative;
+}
+
+.cart-img {
+	width: 72px;
+	height: 100%;
+	border: none;
+	background-color: rgb(240, 240, 240);
+}
+
+.cart-card > div:nth-child(2) {
+	display: flex;
+	width: 40%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cart-card > div:nth-child(2) > span:last-child {
+	font-size: .9rem;
+	font-weight: 500;
+}
+
+.cart-card-info {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.cart-card-info > span {
+	font-size: .7rem;
+	font-weight: 500;
+}
+
+.cart-card > div:last-child {
+	/*width: 40px;*/
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: flex;
+}
+
+.cart-button {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.cart-button > button {
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	background-color: rgb(120, 120, 120);
+	color: white;
+}
+
+.cart-card > div:last-child > div:last-child {
+	color: white;
+	height: 100%;
+	width: 52px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background-color: hsl(0, 90%, 60%, .9);
+}
+
+.cart-item > div:last-child {
+	display: flex;
+	font-size: .8rem;
+	font-weight: 500;
+	width: 17%;
+	justify-content: space-between;
+}
+
+.cart > div:last-child {
+	align-self: flex-end;
+	min-width: 18%;
+	/*background-color: red;*/
+	font-weight: 700;
+}

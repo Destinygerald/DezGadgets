@@ -1,0 +1,93 @@
+.slider, .closed-slider {
+	display: none;
+	visibility: hidden;
+}
+
+@media only screen and ( max-width: 600px ) {
+	.slider {
+		display: inline;
+		visibility: visible;
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+		z-index: 4;
+		top: 0;
+		left: 0;
+	}
+
+	.slider-exit {
+		color: white;
+		position: absolute;
+		font-size: 1.6rem;
+		right: 20px;
+		top: 20px;
+		z-index: 3;
+	}
+
+	.slider-top {
+		width: 100%;
+		/*position: absolute;*/
+		height: 88px;
+		left: 0;
+		background-color: rgb(32, 32, 32);
+		color: white;
+		padding: 30px 8%;
+		display: flex;
+		align-items: top;
+		gap: 16px;
+	}
+
+	.slider-top > span:first-child {
+		font-size: 1.6rem;
+	}
+
+	.slider-top > div:last-child {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.slider-top > div:last-child > span:first-child {
+		font-size: .65rem;
+	}
+
+	.slider-top > div:last-child > span:last-child {
+		font-size: .75rem;
+		font-weight: 600;
+	}
+
+	.slider-inner {
+		width: 100%;
+		height: 60%;
+		margin-top: 56px;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		padding: 0 8%;
+	}
+
+	.slider-inner > span {
+		font-size: .75rem;
+		color: rgb(32, 32, 32, .6);
+		font-weight: 700;
+		width: 100%;
+		padding: 12px 14px;
+		border-bottom: 1px solid rgb(0, 0, 0, .1);
+	}
+
+	.slider-inner > span:last-child {
+		border-bottom: none;
+	}
+
+	.slider > button {
+		font-size: 1rem;
+		font-weight: 600;
+		width: 84%;
+		padding: 16px 0;
+		border: none;
+		border-radius: 4px;
+		color: white;
+		background-color: var(--primary);
+		margin-left: 8%;
+	}
+}

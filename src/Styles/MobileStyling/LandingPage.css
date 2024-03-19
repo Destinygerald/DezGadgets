@@ -1,0 +1,139 @@
+@media only screen and ( max-width: 600px ) {
+	.landing-page {
+		padding: 0;
+		height: 100%;
+		/*background-color: white;*/
+		/*display: none;*/
+		overflow-x: hidden;
+	}
+
+	.banner {
+		height: 350px;
+		border-radius: 0;
+	}
+
+	.banner-info {
+		top: 16%;
+		left: 12%;
+		width: 60%;
+	}
+
+	.banner-info > button {
+		font-size: .8rem;
+		/*width: ;*/
+		padding: 12px 18px;
+	}
+
+	.banner-info > span:first-child {
+		font-size: 1.2rem;
+	}
+
+	.carousel-arrows {
+		width: 96%;
+	}
+
+	.carousel > div > img {
+		height: 100%;
+		width: 600px;
+		object-fit: cover;
+		object-position: 160% center;
+	}
+
+	.carousel > div:nth-child(3) > img {
+		object-position: 70% center;
+	}
+
+	.features {
+		/*width: 90%;
+		margin: 0 auto;
+		padding: 12px 20px;*/
+		display: none;
+	}
+
+	.popular-category {
+		padding: 0 2%;
+	}
+
+	.popular-category > div:last-child {
+	}
+
+	.deals {
+		/*display: none;*/
+	}
+
+	.featured-product {
+		padding: 0 2%;
+	}
+
+	.offers {
+		padding: 0 2%;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: auto;
+		grid-auto-flow: dense;
+		gap: 6px;
+	}
+
+	.offers > div {
+		/*overflow: visible;*/
+		font-size: 5.4rem;
+		padding: 10px 4px;
+		min-height: 100px;
+	}
+
+	.offers > div:nth-child(3) {
+		grid-row: span 2;
+	}
+
+	.offers > div:nth-child(4) {
+		grid-column: span 1;
+		grid-row: span 2;
+	}
+
+	.offers > div:nth-child(5) {
+		grid-column: span 2;
+	}
+
+
+	.offers > div > img {
+		width: auto;
+		object-fit: none;
+		object-position: right center;
+	}
+
+	.offer-2 {
+		border-radius: 0;
+	}
+
+	.offer-2 > div:first-child > span:first-child {
+		font-weight: 700;
+	}
+
+	.deals {
+		padding: 0 2%;
+	}
+
+	.deal-item {
+		width: 480px;
+		box-shadow: 0 0 2px rgb(0, 0, 0, .1);
+	}
+
+	.deal-item > div:first-child {
+		width: 40%;
+	}
+
+	.popular-carousel {
+		overflow-x: scroll;
+	}
+
+	.popular-carousel::-webkit-scrollbar {
+		display: none;
+	}
+
+	.popular-carousel > .carousel-arrows {
+		display: none;
+	}
+
+	.category-item {
+		cursor: auto;
+	}
+}

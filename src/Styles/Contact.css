@@ -1,0 +1,70 @@
+.contact-us {
+	width: 100%;
+	display: flex;
+	background-color: hsl(40, 90%, 97%);
+	padding: 20px 10%;
+	margin-top: -20px;
+	margin-bottom: -20px;
+	color: rgb(68, 68, 68);
+	gap: 28px;
+}
+
+.contact-container {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-container-left {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-container-left > span:first-child {
+	font-size: 1.7rem;
+	font-weight: 700;
+}
+
+.contact-container-right {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	gap: 6px;
+	padding: 1.7rem 12px;
+}
+
+
+.contact-container-right > input, .contact-container-right > textarea {
+	border: none;
+	background-color: rgb(250, 250, 250);
+	box-shadow: 0 0 2px rgb(0, 0, 0, .2);
+	outline: none;
+	padding: 8px 16px;
+	border-radius: 3px;
+	font-size: .75rem;
+	font-family: monospace;
+}
+
+.contact-container-right > textarea {
+	min-height: 200px;
+}
+
+.contact-container-right > input:nth-child(2)[type=number]::-webkit-inner-spin-button, .contact-container-right > input:nth-child(2)[type=number]::-webkit-inner-spin-button {
+	display: none;
+}
+
+.contact-container-right > button {
+	width: 140px;
+	margin-top: 8px;
+	padding: 8px;
+	border: none;
+	color: white;
+	background-color: var(--primary);
+	border-radius: 3px;
+	align-self: flex-end;
+	cursor: pointer;
+	font-family: monospace;
+	font-size: .8rem;
+	font-weight: 600;
+}

@@ -1,0 +1,51 @@
+@media only screen and ( max-width: 600px ) {
+	.navbar {		
+	}
+
+	.nav-top {
+		/*display: none;*/
+		font-size: .5rem;
+		padding: 8px 6%;
+		align-items: center;
+	}
+
+	.nav-top > div {
+		display: flex;
+		gap: 12px;
+	}
+
+	.nav-top > div:first-child {
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.nav-top > div:last-child {
+		display: none;
+	}
+
+	.nav-mid {
+		display: none;
+	}
+
+	.nav-bottom {
+		/*display: none;*/
+	}
+
+	.nav-bottom > div:nth-child(2), .nav-bottom > div:nth-child(3) {
+		display: none;
+	}
+
+	.nav-bottom > div:last-child {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		color: white;
+		font-size: .85rem;
+		align-items: center;
+	}
+
+	.nav-bottom > div:last-child > span {
+		padding: 2px;
+		color: white;
+	}
+}

@@ -1,0 +1,44 @@
+.mobile-search {
+	display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+	.mobile-search {
+		display: flex !important;
+		position: absolute;
+		top: 50%;
+		translate: 12% -50%;
+		z-index: 1;
+		border-radius: 3px;
+		overflow: hidden;
+	}
+
+	.show {
+		display: flex;
+		width: 230px;
+		height: 36px;
+		background: white;
+	}
+
+	.show > input {
+		width: 70%;
+		height: 100%;
+		border: none;
+		outline: none;
+		padding-left: 12px;
+	}
+
+	.show > button {
+		height: 100%;
+		color: white;
+		background: var(--primary);
+		width: 30%;
+		border: none;
+		padding: 0 12px;
+	}
+
+	.hide {
+		display: none;
+	}
+
+}
